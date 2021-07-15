@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+  </head>
+  
+  <body>
+    <header>
+      <div class="logo">
+        <img src="todo.png" alt="Logo">
+      </div>
+      
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="menu-button"></span>
+      </button>
+      
+      <nav class="nav">
+        <ul class="nav__list">
+          <!-- Various Sections on Site -->
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>  
+    
+    <!-- Introduction Page -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        The Title <strong>of my project</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Full-Stack Developer
+      </p>
+      <img src="portfolio-1.png" 
+      alt="personal-image" class="intro__image">
+    </section>
+    
+    <div class="portfolio-item-individual">
+      <p></p>
+      <img src="todo.png" alt="">
+      <p></p>
+      <p></p>
+    </div>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:alex.battikha@gmail.com" class="footer__link">alex.battikha@gmail.com</a>
+      <ul class="social-list">
+        <!-- Github -->
+        <li class="social-list__item">
+          <a class="social-list__link"
+          href="https://github.com/alex-battikha">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        
+        <!-- Instagram -->
+        <li class="social-list__item">
+          <a class="social-list__link"
+          href="https://www.instagram.com/alex_battikha/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        
+        <!-- Youtube -->
+        <li class="social-list__item">
+          <a class="social-list__link"
+          href="https://www.youtube.com/channel/UCoUfwPRQzlf8C3fun6IvJ5A/featured">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+  </body>
+</html>

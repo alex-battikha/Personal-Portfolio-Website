@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+  </head>
+  
+  <body>
+    <header>
+      <div class="logo">
+        <img src="todo.png" alt="Logo">
+      </div>
+      
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="menu-button"></span>
+      </button>
+      
+      <nav class="nav">
+        <ul class="nav__list">
+          <!-- Various Sections on Site -->
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>  
+    
+    <!-- Introduction Page -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Alex Battikha</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Full-Stack Developer
+      </p>
+      <img src="https://cdn.glitch.com/a2a15770-2364-48d4-a0db-70ac9a389ae7%2Fprofile-pic.png?v=1626160832938" 
+      alt="personal-image" class="intro__image">
+    </section>
+    
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">
+        My Experience
+      </h2>
+      
+      <div class="services">
+        <!-- Experience 1 -->
+        <div class="service">
+          <h3>
+            A1
+          </h3>
+          
+          <p>
+            A2
+          </p>
+          
+        </div>
+        
+        <!-- Experience 2 -->
+        <div class="service">
+          <h3>
+            B1
+          </h3>
+          
+          <p>
+            B2
+          </p>
+          
+        </div>
+        
+        <!-- Experience 3 -->
+        <div class="service">
+          <h3>
+            C1
+          </h3>
+          
+          <p>
+            C2
+          </p>
+          
+        </div>
+      </div>
+      
+      <a href="#work" class="btn">My Work<btn></btn></a>
+    </section>
+    
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About Me</h2>  
+      
+      <p class="section__subtitle section__subtitle--about">Todo</p>
+    
+      <div class="about-me__body">
+        <p></p>
+      </div>
+      
+      <img src="todo.png" alt="" class="about-me__img">
+    </section>
+    
+    
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work"></p>
+      
+      <!-- Portfolio -->
+      <div class="portfolio">
+        <!-- Portfolio Item 1 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+        <!-- Portfolio Item 2 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+        <!-- Portfolio Item 3 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+        <!-- Portfolio Item 4 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+        
+        <!-- Portfolio Item 5 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+        <!-- Portfolio Item 6 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+        <!-- Portfolio Item 7 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+        <!-- Portfolio Item 8 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+        <!-- Portfolio Item 9 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+        <!-- Portfolio Item 10 -->
+        <a href="#" class="portfolio__item">
+          <img src="todo.png" alt="">
+        </a>
+        
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:alex.battikha@gmail.com" class="footer__link">alex.battikha@gmail.com</a>
+      <ul class="social-list">
+        <!-- Github -->
+        <li class="social-list__item">
+          <a class="social-list__link"
+          href="https://github.com/alex-battikha">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        
+        <!-- Instagram -->
+        <li class="social-list__item">
+          <a class="social-list__link"
+          href="https://www.instagram.com/alex_battikha/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        
+        <!-- Youtube -->
+        <li class="social-list__item">
+          <a class="social-list__link"
+          href="https://www.youtube.com/channel/UCoUfwPRQzlf8C3fun6IvJ5A/featured">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+  </body>
+</html>
