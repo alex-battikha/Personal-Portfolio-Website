@@ -8,6 +8,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <link rel="stylesheet" href="style.css">
     
@@ -19,7 +20,7 @@
   <body>
     <header>
       <div class="logo">
-        <img src="todo.png" alt="Logo">
+        <img src="img/coding-logo-transparent.png" alt="Logo">
       </div>
       
       <button class="nav-toggle" aria-label="toggle navigation">
@@ -38,7 +39,7 @@
     </header>  
     
     <!-- Introduction Page -->
-    <section class="intro">
+    <section class="intro" data-aos="fade-right" data-aos-duration="2000">
       <h1 class="section__title section__title--intro">
         The Title <strong>of my project</strong>
       </h1>
@@ -88,6 +89,10 @@
     </footer>
     
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
   </body>
 </html>

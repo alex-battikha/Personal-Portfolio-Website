@@ -141,11 +141,11 @@ strong {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 8px;
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 165px;
 }
 
 .nav {
@@ -213,7 +213,7 @@ header {
 }
 
 .nav-open .menu-button::before {
-  transform: rotate(90deg) translateX(-6px);
+  transform: rotate(90deg) translateX(-8px);
 }
 
 .nav-open .menu-button::after {
@@ -223,6 +223,7 @@ header {
 .menu-button {
   display: block;
   position: relative;
+  top: 5px;
 }
 
 /* Pseduo Elements */
@@ -231,7 +232,7 @@ header {
 .menu-button::after {
   background: var(--clr-turq);
   width: 32px;
-  height: 3px;
+  height: 4px;
   border-radius: 14px;
   transition: transform 250ms ease-in-out;
 }
@@ -338,6 +339,7 @@ header {
 
 .services {
   margin-bottom: 44px;
+  padding-right: 0px;
 }
 
 @media (min-width: 800px) {
