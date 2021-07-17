@@ -8,6 +8,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <link rel="stylesheet" href="style.css">
     
@@ -19,7 +20,7 @@
   <body>
     <header>
       <div class="logo">
-        <img src="todo.png" alt="Logo">
+        <img src="img/coding-logo-final.png" alt="Logo">
       </div>
       
       <button class="nav-toggle" aria-label="toggle navigation">
@@ -38,7 +39,7 @@
     </header>  
     
     <!-- Introduction Page -->
-    <section class="intro" id="home">
+    <section class="intro" id="home" data-aos="fade-right" data-aos-duration="2000">
       <h1 class="section__title section__title--intro">
         Hi, I am <strong>Alex Battikha</strong>
       </h1>
@@ -50,7 +51,7 @@
     </section>
     
     <!-- My Services -->
-    <section class="my-services" id="services">
+    <section class="my-services" id="services" data-aos="fade-left" data-aos-duration="1500">
       <h2 class="section__title section__title--services">
         My Experience
       </h2>
@@ -59,11 +60,19 @@
         <!-- Experience 1 -->
         <div class="service">
           <h3>
-            A1
+            Computer-Aided-Design
           </h3>
           
           <p>
-            A2
+            From a CADing Software to manufacturing <br>
+            to holding an object in one's own hands. <br>
+            It's amazing how there is an endless <br>
+            amount of possibilities and objects to make <br>
+            utilizing various simple shapes, designs, <br>
+            and curves. With a 2-year CADing background <br>
+            using Solidworks, I am fortunate enough <br>
+            to have the oppurtunity to design various <br>
+            parts and robots along with 3D printing them.
           </p>
           
         </div>
@@ -71,11 +80,19 @@
         <!-- Experience 2 -->
         <div class="service">
           <h3>
-            B1
+            FIRST Robotics
           </h3>
           
           <p>
-            B2
+            As an avid robotics member for 5+ years <br>
+            robotics has played a major role in my life. <br>
+            With substantial knowledge on the fabrication <br>
+            process, vision detection, 3D printing, <br>
+            autonomous robots and many more aspects <br>
+            allowed me to make many great contributions <br>
+            including scoring 3rd in all of the San Diego <br>
+            region and recieving 6 awards acknowledging <br>
+            my team's hard work and determenation. <br>
           </p>
           
         </div>
@@ -83,11 +100,19 @@
         <!-- Experience 3 -->
         <div class="service">
           <h3>
-            C1
+            Game Development
           </h3>
           
           <p>
-            C2
+            Throughout the past year, I have utilized <br>
+            my extensive programming background to <br>
+            learn a new skill, <strong>2D & 3D Game Development.</strong><br>
+            All through this jounrey, I have been <br>
+            successful in developing 20+ advanced games <br>
+            including recreating the T-Rex Game, <br>
+            Snake Game, Virtual Pet, Plinko, and <br>
+            a Multiplayer Gun Game. I plan on <br>
+            improving this skill for upcoming years.
           </p>
           
         </div>
@@ -202,6 +227,10 @@
     </footer>
     
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
   </body>
 </html>
